@@ -1,0 +1,161 @@
+body{
+    background-image: url("gym_bg2.png");
+    background-repeat: stretch;
+    font-family: 'Truculenta';
+    font-size: 22px;
+    margin: 0;
+    }
+    #gfg {
+        color:rgb(206,246,9);
+        font-size: 100%;
+        font-family: 'Truculenta';
+    }
+    
+    p{
+        color:rgb(206,246,9);
+        font-size: large;
+        text-align: center;
+    }
+    
+    img{
+        border-radius: 50%;
+    
+    }
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+      }
+    .button:hover {
+        background-color: #555;
+      }
+    .left{
+        display:inline-block;
+        position: absolute;
+        left:60px;
+        top:20px;
+    }
+
+    .mid{
+        display:block
+        width: 33%;
+        position: 20px auto;
+        
+    }
+    .right{
+        display:inline-block;
+        position: absolute;
+        left:60px;
+        top:20px;
+        font-size: medium;
+    }
+    .navbar{
+        display:inline-block;
+        font size: 100%;
+        
+
+    }
+    .navbar li{
+        display:inline-block;
+        font size: 100%;
+    
+    }
+    .navbar li a{
+        color: rgb(206,246,9);
+        text-decoration: none ;
+        padding: 33px 28px;
+        font size: 100%;
+        
+    }
+    .navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    
+    }
+     h1{
+        color:rgb(206,246,9);
+      }
+      
+      html {
+        box-sizing: border-box;
+      }
+      
+      *, *:before, *:after {
+        box-sizing: inherit;
+      }
+      
+      .column {
+        float: left;
+        width: 20%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+      }
+      
+      .card {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        margin: 6px;
+      }
+      
+      .about-section {
+        padding: 50px;
+        text-align: center;
+        color: white;
+      }
+      
+      .container {
+        padding: 0 10x;
+      }
+      
+      .container::after, .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      .title {
+        color:rgb(206,246,9);
+      }
+      @media screen and (max-width: 650px) {
+        .column {
+          width: 100%;
+          display: block;
+        }
+      }
+      h2{
+        font-size:large;
+        color:rgb(206,246,9);
+        
+      }
+      p1{
+        font-size: small;
+        color:rgb(206,246,9);
+      }
+      fieldset{
+        background-color: white;
+        background-image: url("about_bg.jpeg");
+        background-size: cover;
+        border: none;
+      }
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+       column-gap: 2em;
+        flex-wrap: wrap;
+       align-items: center;
+        justify-content: center;
+      }
+      
+      .flex-container > div {
+        background-color: #f1f1f1;
+        width: 100px;
+        height:100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+      }

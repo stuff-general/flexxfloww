@@ -1,0 +1,18 @@
+
+    
+     h1{
+        color:rgb(206, 246, 9);
+        font-family:'Truculenta';
+        font-size: 100%;
+     }
+
+    body {
+        background-image: url("register_bg.png");
+        background-size: cover;
+        font-family:'Truculenta';
+    }
+    p{
+        color:rgb(206, 246, 9);
+    }
+        
+    
