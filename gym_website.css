@@ -135,12 +135,7 @@ body{
         font-size: small;
         color:rgb(206,246,9);
       }
-      fieldset{
-        background-color: white;
-        background-image: url("about_bg.jpeg");
-        background-size: cover;
-        border: none;
-      }
+      
       .flex-container {
         display: flex;
         flex-direction: column;

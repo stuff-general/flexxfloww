@@ -1,11 +1,16 @@
 body {
-    font-family: 'Truculenta';
+  background-image: url("about_bg.jpeg"); 
+  background-repeat: cover;
+  font-family: 'Truculenta';
     margin: 0;
   }
   p{
     color:rgb(206,246,9);
   }
   h1{
+    color:rgb(206,246,9);
+  }
+  h2{
     color:rgb(206,246,9);
   }
   
@@ -20,6 +25,7 @@ body {
   .column {
     float: left;
     width: 20%;
+    color: rgb(206,246,9);
     margin-bottom: 16px;
     padding: 0 8px;
   }
