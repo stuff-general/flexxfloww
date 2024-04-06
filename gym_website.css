@@ -16,11 +16,7 @@ body{
         font-size: large;
         text-align: center;
     }
-    
-    img{
-        border-radius: 50%;
-    
-    }
+  
     .button {
         border: none;
         outline: 0;
@@ -89,43 +85,8 @@ body{
         box-sizing: inherit;
       }
       
-      .column {
-        float: left;
-        width: 20%;
-        margin-bottom: 16px;
-        padding: 0 8px;
-      }
       
-      .card {
-        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-        margin: 6px;
-      }
-      
-      .about-section {
-        padding: 50px;
-        text-align: center;
-        color: white;
-      }
-      
-      .container {
-        padding: 0 10x;
-      }
-      
-      .container::after, .row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
-      
-      .title {
-        color:rgb(206,246,9);
-      }
-      @media screen and (max-width: 650px) {
-        .column {
-          width: 100%;
-          display: block;
-        }
-      }
+    
       h2{
         font-size:large;
         color:rgb(206,246,9);
@@ -135,22 +96,51 @@ body{
         font-size: small;
         color:rgb(206,246,9);
       }
-      
-      .flex-container {
-        display: flex;
-        flex-direction: column;
-       column-gap: 2em;
-        flex-wrap: wrap;
-       align-items: center;
-        justify-content: center;
+      .grid-container {
+        display: grid;
+        gap: 50px 100px;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
       }
       
-      .flex-container > div {
-        background-color: #f1f1f1;
-        width: 100px;
-        height:100px;
-        margin: 10px;
-        text-align: center;
-        line-height: 75px;
+      .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        background-repeat: cover;
+        padding: 80px;
         font-size: 30px;
+        color: rgb(206,246,9);
+        text-align: center;
+        border-radius: 20px;
+        height: 200px;
+        
+        
       }
+      .gym{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("gymphotu.jpeg");
+      }
+      
+      .pa{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("personal.jpeg");
+      }
+      .diet{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("diet.jpeg");
+      }
+      .swimming{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("swimming.jpeg");
+    
+      }
+      .meditation{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("yoga.jpeg");
+      }
+      .zumba{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("zumba.jpeg");
+      }
+      .twenty{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("alldayopen\ -\ Copy.jpeg");
+      }
+      .guarantee{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("guarantee.jpeg");
+      }
+    
+      
+      
