@@ -1,5 +1,5 @@
 body{
-    background-image: url("gym_bg2.png");
+    
     background-repeat: stretch;
     font-family: 'Truculenta';
     font-size: 22px;
@@ -13,8 +13,12 @@ body{
     
     p{
         color:rgb(206,246,9);
-        font-size: large;
+        font-size: larger;
         text-align: center;
+    }
+    header{
+      background-image: url("gym_bg2.png");
+      background-repeat: cover;
     }
   
     .button {
@@ -97,50 +101,65 @@ body{
         color:rgb(206,246,9);
       }
       .grid-container {
+        background-image: url("woodoo.jpeg");
         display: grid;
-        gap: 50px 100px;
-        grid-template-columns: auto auto auto;
+        grid-gap:50px;
+        grid-template-columns: auto auto auto auto;
         padding: 10px;
       }
       
       .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
-        background-repeat: cover;
+        background-repeat: stretch;
         padding: 80px;
         font-size: 30px;
         color: rgb(206,246,9);
         text-align: center;
         border-radius: 20px;
         height: 200px;
+        width: 300px;
         
         
       }
       .gym{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("gymphotu.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("gymphotu.jpeg");
       }
       
       .pa{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("personalattention.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("personalstuff.jpeg");
       }
       .diet{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("diet.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("diet.jpeg");
       }
       .swimming{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("swimming.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("swimming.jpeg");
     
       }
       .meditation{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("yoga.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("yogaandallhaaaa.jpeg");
       }
       .zumba{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("zumba.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("zumba.jpeg");
       }
       .twenty{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("alldayopen\ -\ Copy.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("alldayopen\ -\ Copy.jpeg");
       }
       .guarantee{
-        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("mastresults.jpeg");
+        background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("pkaapkaaresusults.jpeg");
       }
-    
+      div.scroll-container {
+        background-image: url("woodoo.jpeg");
+        background-color: #333;
+        grid-gap: 16px;
+        overflow-x: scroll;
+        white-space: nowrap;
+        padding: 10px;
+        width:100;
+      }
+      
+      div.scroll-container img {
+        padding: 10px;
+      }
+
       
       

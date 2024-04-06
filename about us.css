@@ -1,5 +1,5 @@
 body {
-  background-image: url("about_bg.jpeg"); 
+  background-image: url("something.jpeg.crdownload"); 
   background-repeat: cover;
   font-family: 'Truculenta';
     margin: 0;
@@ -12,6 +12,7 @@ body {
   }
   h2{
     color:rgb(206,246,9);
+    text-align: center;
   }
   
   html {
