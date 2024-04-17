@@ -130,10 +130,8 @@ body{
         
       }
       .gym{
-
         background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("gym web photuuuuuu/gymphotu.jpeg");
       }
-      
       .pa{
         background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("gym web photuuuuuu/personalstuff.jpeg");
       }
@@ -168,7 +166,6 @@ body{
       
       div.scroll-container img {
         padding: 10px;
-        
-      }
+        }
       
       
