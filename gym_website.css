@@ -16,11 +16,14 @@ body{
         font-size: larger;
         text-align: center;
     }
+<<<<<<< Updated upstream
     header{
       background-image: url("gym web photuuuuuu/gym_bg2.png");
       background-repeat: cover;
      font-family: 'Truculenta';
     }
+=======
+>>>>>>> Stashed changes
   
     .button {
         border: none;
@@ -102,27 +105,41 @@ body{
         color:rgb(206,246,9);
       }
       .grid-container {
+<<<<<<< Updated upstream
         background-image: url("gym web photuuuuuu/woodoo.jpeg");
         display: grid;
         grid-gap:50px;
         grid-template-columns: auto auto auto auto;
+=======
+        display: grid;
+        gap: 50px 100px;
+        grid-template-columns: auto auto auto;
+>>>>>>> Stashed changes
         padding: 10px;
       }
       
       .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
+<<<<<<< Updated upstream
         background-repeat: stretch;
+=======
+        background-repeat: cover;
+>>>>>>> Stashed changes
         padding: 80px;
         font-size: 30px;
         color: rgb(206,246,9);
         text-align: center;
         border-radius: 20px;
         height: 200px;
+<<<<<<< Updated upstream
         width: 300px;
+=======
+>>>>>>> Stashed changes
         
         
       }
       .gym{
+<<<<<<< Updated upstream
         background: linear-gradient(rgb(163, 163, 194),rgba(16, 19, 18, 0.3)),url("gym web photuuuuuu/gymphotu.jpeg");
       }
       
@@ -162,3 +179,33 @@ body{
         padding: 10px;
       }
      
+=======
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("gymphotu.jpeg");
+      }
+      
+      .pa{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("personal.jpeg");
+      }
+      .diet{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("diet.jpeg");
+      }
+      .swimming{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("swimming.jpeg");
+    
+      }
+      .meditation{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("yoga.jpeg");
+      }
+      .zumba{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("zumba.jpeg");
+      }
+      .twenty{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("alldayopen\ -\ Copy.jpeg");
+      }
+      .guarantee{
+        background: linear-gradient(rgba(68, 105, 114,0.5),rgba(41, 173, 125, 0.3)),url("guarantee.jpeg");
+      }
+    
+      
+      
+>>>>>>> Stashed changes

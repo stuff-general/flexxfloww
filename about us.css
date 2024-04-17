@@ -1,6 +1,11 @@
 body {
+<<<<<<< Updated upstream
   background-image: url("gym web photuuuuuu/about.jpeg"); 
   background-repeat: cover;
+=======
+  background-image: url("aboutusbg.jpeg"); 
+  background-repeat: stretch;
+>>>>>>> Stashed changes
   font-family: 'Truculenta';
     margin: 0;
   }
