@@ -1,36 +1,31 @@
-.callout {
-    position:absolute;
-    bottom: 15px;
-    right: 10px;
-    margin-left: 10px;
-    max-width: 300px;
-  }
-  
-  .callout-header {
-    padding: 25px 15px;
-    background: #555;
-    font-size: 30px;
-    color: white;
-  }
-  
-  .callout-container {
-    padding: 15px;
-    background-color: #ccc;
-    color: black
-  }
-  
-  .closebtn {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  
-  .closebtn:hover {
-    color: lightgrey;
-  }
+body{
+  background-image: url("gym web photuuuuuu/offer_bg_3.jpeg"); 
+  margin: 0 0; padding: 0 0 ; 
+}
 
-  
-  
+.box{
+  padding:40px;
+  border-radius:15px;
+  align-items: center;
+  display:flex;
+  justify-content:center;
+
+}
+.button_more {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  color: gray;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  height:50px;
+  align-items: center;
+  display:flex;
+  justify-content:center;
+}
+.button:hover {
+  background-color: #555;
+}
+
+
