@@ -167,5 +167,34 @@ body{
       div.scroll-container img {
         padding: 10px;
         }
-      
+        .callout {
+          position: absolute;
+          top: 480px;
+          bottom: 0px;
+          right: 20px;
+          margin-right: 800px;
+          max-width: 300px;
+        }
+        
+        .callout-header {
+          padding: 25px 15px;
+          background: #555;
+          font-size: 30px;
+          color: white;
+          justify-content:center;
+        }
+        
+        
+        .closebtn {
+          position: absolute;
+          top: 5px;
+          right: 15px;
+          color: white;
+          font-size: 30px;
+          cursor: pointer;
+        }
+        
+        .closebtn:hover {
+          color: lightgrey;
+        }
       
