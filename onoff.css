@@ -1,5 +1,8 @@
 body{
     font-family: 'Truculenta';
+    background-image:url("gym web photuuuuuu/training_bg.jpeg");
+    color:#F1F280;
+    font-size:larger;
 }
 .box{
   border-radius:40px;
@@ -10,11 +13,13 @@ table{
   border-radius:40px;
   display: flex;
   justify-content: center;
+  
 }
   
 .container {
   position: relative;
   width: 50%;
+  padding:40px;
 }
 
 .image {
@@ -31,7 +36,7 @@ table{
   opacity: 0;
   position: absolute;
   top: 50%;
-  left: 150px;
+  left: 185px;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
